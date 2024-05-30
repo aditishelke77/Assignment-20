@@ -4,54 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+     <link rel="stylesheet" href="./css/style.css">
     <style>
         body{
             
             margin: 0;
             padding: 0;
         }
-        .header{
-            background-color: aquamarine;
-            display: flex;
-            min-height: 200vh;
-        }
-        .sidebar{
-            background-color: blueviolet;
-            width: 180px;
-        }
-        .content{
-            background-color: yellowgreen;
-            width: 200%;
-            padding-left: 10px;
-            padding-right: 10px;
 
-        }
-        .menu-item{
-            background-color: white;
-            margin: 9px;
-            border-radius: 6px;
-            display: flex;
-            align-items: center;
-            padding: 5px 20px;
-            cursor: pointer;
-        }
-        .menu-icon{
-            height: 15px;
-        }
-
-        .menu-text{
-            margin-left: 5px;
-        }
+       
     </style>
 </head>
 <body>
     <div class="header">
      <div class="sidebar">
-        <div class="menu-item">
+
+        <a class="menu-item active-menu" href="./index.html">
           <img src="./img/sidebar-icons/icons8-user-24.png" class="menu-icon"/>
           <span class="menu-text">user</span>
-        </div>
+        </a>
+
+
+        <a class="menu-item" href="./pages/home.html">
+            <img src="./img/sidebar-icons/icons8-home-24.png" class="menu-icon"/>
+            <span class="menu-text">home</span>
+          </a>
+  
+          <a class="menu-item" href="./pages/pin.html">
+            <img src="./img/sidebar-icons/icons8-pin-32.png" class="menu-icon"/>
+            <span class="menu-text">pin</span>
+          </a>
+  
+          <a class="menu-item" href="./pages/help.html">
+            <img src="./img/sidebar-icons/icons8-help-50.png" class="menu-icon"/>
+            <span class="menu-text">help</span>
+          </a>
+  
      </div>
      <div  class="content">
     

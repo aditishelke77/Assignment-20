@@ -1,0 +1,49 @@
+body{
+            
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: aquamarine;
+    display: flex;
+    min-height: 200vh;
+}
+.sidebar{
+    background-color: blueviolet;
+    width: 180px;
+}
+.content{
+    background-color: white;
+    width: 200%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.menu-item{
+    background-color: white;
+    margin: 9px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+
+
+}
+.active-menu{
+    background-color:rgb(83, 184, 196);
+}
+.menu-item:hover{
+    background-color: #a6acb4;
+}
+
+.menu-icon{
+    height: 15px;
+}
+
+.menu-text{
+    margin-left: 5px;
+    text-decoration: none;
+}
